@@ -15,33 +15,46 @@ Este projeto consiste em uma calculadora matemática simples implementada em Rus
 5. **Encerramento**: Permite ao usuário sair do programa.
 
 ## COMO USAR?
-1. **Execução do Programa**:
-   - O programa é executado em um ambiente de terminal (linha de comando).
-
-2. **Menu de Opções**:
-   - Ao iniciar o programa, um menu é exibido com as seguintes opções:
+1. **Build do Projeto:**
+   - Para compilar o aplicativo para produção, navegue até o Diretório `./CODIGO`, e digite o seguinte comando no Terminal:
+     ```bash
+     cargo build
      ```
-     Calculadora Matemática
-     1. Soma
-     2. Subtração
-     3. Multiplicação
-     4. Divisão
-     5. Sair
+
+2. **Execução do Projeto:**
+   - Para iniciar o aplicativo, digite o seguinte comando no Terminal:
+     ```bash
+     cargo run
      ```
-   
-3. **Escolha da Operação**:
-   - O usuário seleciona uma das opções digitando o número correspondente seguido da tecla Enter.
 
-4. **Entrada de Números**:
-   - Após selecionar a operação, o programa solicita que o usuário insira dois números inteiros.
-   - Os números são digitados na linha de comando e confirmados com a tecla Enter.
+3. **Interagindo com Aplicativo:**
+   1. **Execução do Programa**:
+      - O programa é executado em um ambiente de terminal (linha de comando).
 
-5. **Resultado da Operação**:
-   - Após inserir os números, o programa realiza a operação escolhida e exibe o resultado na tela.
-   - Caso a operação seja a divisão e o segundo número seja zero, o programa exibirá um erro de divisão por zero.
+   2. **Menu de Opções**:
+      - Ao iniciar o programa, um menu é exibido com as seguintes opções:
+      ```
+      Calculadora Matemática
+      1. Soma
+      2. Subtração
+      3. Multiplicação
+      4. Divisão
+      5. Sair
+      ```
+      
+   3. **Escolha da Operação**:
+      - O usuário seleciona uma das opções digitando o número correspondente seguido da tecla Enter.
 
-6. **Finalização do Programa**:
-   - O usuário pode repetir as operações ou escolher a opção "Sair" para encerrar o programa.
+   4. **Entrada de Números**:
+      - Após selecionar a operação, o programa solicita que o usuário insira dois números inteiros.
+      - Os números são digitados na linha de comando e confirmados com a tecla Enter.
+
+   5. **Resultado da Operação**:
+      - Após inserir os números, o programa realiza a operação escolhida e exibe o resultado na tela.
+      - Caso a operação seja a divisão e o segundo número seja zero, o programa exibirá um erro de divisão por zero.
+
+   6. **Finalização do Programa**:
+      - O usuário pode repetir as operações ou escolher a opção "Sair" para encerrar o programa.
 
 ## NÃO SABE?
 - Entendemos que para manipular arquivos em muitas linguagens e tecnologias, é necessário possuir conhecimento nessas áreas. Para auxiliar nesse aprendizado, oferecemos cursos gratuitos disponíveis:
