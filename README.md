@@ -15,19 +15,13 @@ Este projeto consiste em uma calculadora matemática simples implementada em Rus
 5. **Encerramento**: Permite ao usuário sair do programa.
 
 ## COMO USAR?
-1. **Build do Projeto:**
-   - Para compilar o aplicativo para produção, navegue até o Diretório `./CODIGO`, e digite o seguinte comando no Terminal:
-     ```bash
-     cargo build
-     ```
-
-2. **Execução do Projeto:**
-   - Para iniciar o aplicativo, digite o seguinte comando no Terminal:
+1. **Execução do Projeto:**
+   - Para iniciar o aplicativo, navegue até o Diretório `./CODIGO`, e digite o seguinte comando no Terminal:
      ```bash
      cargo run
      ```
-
-3. **Interagindo com Aplicativo:**
+     
+2. **Interagindo com Aplicativo:**
    1. **Execução do Programa**:
       - O programa é executado em um ambiente de terminal (linha de comando).
 
